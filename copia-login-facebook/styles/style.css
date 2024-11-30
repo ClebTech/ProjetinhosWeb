@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F2F4F7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+main{
+    margin-top: 50px;
+    flex-grow: 1;
+}
+
+.logo-facebook{
+    display: block;
+    margin: auto;
+}
+
+#login{
+    padding-top: 10px;
+    box-shadow: 5px 5px 20px rgb(177, 177, 177);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid rgb(196, 194, 194);
+    width: 396px;
+    height: 290px;
+    margin: auto;
+}
+
+#password, #email-telefone{
+    padding-left: 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(196, 194, 194);
+    font-size: 16px;
+    height: 40px;
+    width: 350px; 
+    color: black;
+}
+
+#botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 23px;
+    font-size: 20px;
+    height: 40px;
+    width: 366px;  
+    background-color: #1877F2;
+    font-weight: bold;
+    color: white;
+    border: 1px solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#botao:hover{
+    background-color: #0e70f1;
+}
+
+#login h1{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.links{
+    margin-top: 12px;
+    display: flex;
+    font-size: 14px;
+}
+
+.links a{
+   text-decoration: none;
+   color: rgb(106, 106, 243);
+}
+
+.links a:hover{
+    text-decoration: underline;
+ }
+
+.links p:nth-child(1){
+    margin-right: 18px;
+}
+
+footer {
+    height: 40vh;
+    width: 100vw;
+    background-color: white;
+    text-align: center;
+    padding: 150px;
+    box-sizing: border-box; 
+}
