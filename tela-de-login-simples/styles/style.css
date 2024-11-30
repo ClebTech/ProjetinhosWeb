@@ -19,18 +19,28 @@ body{
 }
 
 #email{
+    border: 2px solid rgb(131, 130, 130);
     display: flex;
     width: 200px;
     height: 30px;
     background-color: #e4e0e0;
 }
 
+#email:focus{
+    border: 2px solid rgb(0, 0, 0);
+}
+
 #password{
+    border: 2px solid rgb(131, 130, 130);
     margin-top: 10px;
     display: flex;
     width: 200px;
     height: 30px;
     background-color: #e4e0e0;
+}
+
+#password:focus{
+    border: 2px solid rgb(0, 0, 0);
 }
 
 #button-submit{
@@ -51,12 +61,14 @@ body{
 }
 
 .login-word{
+    margin-top: 50px;
     font-size: 32px;
     font-weight: bold;
 }
 
 a {
     text-decoration: none;
+    color: rgb(88, 88, 247);
 }
 
 a:hover {
