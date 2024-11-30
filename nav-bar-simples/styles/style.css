@@ -10,23 +10,6 @@ body{
     overflow-x: hidden;
 }
 
-.texto{
-    width: 70vw;
-}
-
-body main h1{
-    color: white;
-    padding: 50px;
-    font-size: 34px;
-}
-
-body main p {
-    color: #fff;
-    padding-left: 80px;
-    margin-top: -10px;
-    margin-right: 80px;
-}
-
 body main{
     background-image: url('../imgs/confetti-doodles.svg');
     background-position: center center;
@@ -103,7 +86,6 @@ body header #menu-checkbox{
 
     nav{
         height: 12.5vh;
-
     }
 
     body main{
@@ -123,7 +105,6 @@ body header #menu-checkbox{
         content: '≡';
     }
 
-    
     #menu-checkbox:checked + nav .menu{
         display: flex;
         flex-direction: column;
@@ -150,6 +131,4 @@ body header #menu-checkbox{
     #menu-checkbox:checked + nav > .mobile-iconic::after{
         content: '×';
     }
-    
 }
-
