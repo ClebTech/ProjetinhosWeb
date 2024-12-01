@@ -23,7 +23,7 @@ main{
 
 #login{
     padding-top: 10px;
-    box-shadow: 5px 5px 20px rgb(177, 177, 177);
+    box-shadow: 3px 3px 20px rgb(196, 195, 195);
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -31,7 +31,7 @@ main{
     border-radius: 5px;
     border: 1px solid rgb(196, 194, 194);
     width: 396px;
-    height: 290px;
+    height: 295px;
     margin: auto;
 }
 
@@ -40,7 +40,7 @@ main{
     border-radius: 5px;
     border: 1px solid rgb(196, 194, 194);
     font-size: 16px;
-    height: 40px;
+    height: 48px;
     width: 350px; 
     color: black;
 }
@@ -57,7 +57,7 @@ main{
     font-weight: bold;
     color: white;
     border: 1px solid;
-    border-radius: 5px;
+    border-radius: 7px;
     cursor: pointer;
 }
 
@@ -89,6 +89,10 @@ main{
     margin-right: 18px;
 }
 
+.links p{
+    padding-bottom: 10px;
+}
+
 footer {
     height: 40vh;
     width: 100vw;
@@ -96,4 +100,8 @@ footer {
     text-align: center;
     padding: 150px;
     box-sizing: border-box; 
+}
+
+.frase{
+    padding-bottom: 10px;
 }
