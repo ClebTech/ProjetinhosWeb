@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+body, html{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    background-color: rgba(19, 18, 18);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#caixa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid white;
+    box-shadow: 5px 4px 30px rgb(143, 140, 140);
+    width: 300px;
+    height: 570px;
+    background-color: rgb(32, 31, 31);
+}
+
+.desenho{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    width: 100px;
+    border: 2px solid white;
+}
+
+.conteudos{
+    text-decoration: none;
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 50px;
+    background-color: rgb(31, 29, 29);
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.conteudos:hover{
+    width: 92%;
+    height: 55px;
+}
+
+#caixa .name{
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+#caixa .email{
+    text-align: center;
+    display: block;
+    margin-top: 1px;
+    color: #fff;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.emoji{
+    font-size: 25px;
+    margin-top: auto;
+}
+
+@media (max-height: 600px){
+    #caixa{
+        width: 300px;
+        height: 400px;
+    }
+
+    .emoji{
+        font-size: 15px;
+        margin-top: auto;
+    }
+
+    .desenho{
+        margin-top: 10px;
+        margin-bottom: 0;
+        width: 70px;;
+    }
+
+    .conteudos{
+        height: 30px;
+    }
+
+    .conteudos:hover{
+        height: 33px;
+    }
+}
